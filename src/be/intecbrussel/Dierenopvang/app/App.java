@@ -37,7 +37,7 @@ public class App {
         animalShelter.addAnimal(dog2);
         animalShelter.addAnimal(dog1);
 
-        //testing methods
+        //testing methods - works
         System.out.println("Number of Animals: ");
         System.out.println(animalShelter.countAnimals());
         System.out.println("Oldest animal: " + animalShelter.findOldestAnimal());
@@ -49,9 +49,14 @@ public class App {
 
         animalShelter.sortAnimalsByAge();
         animalShelter.printAnimals();
-        //after super treat
+        //after super treat - works
         System.out.println("\nAfter treating");
         animalShelter.treatAllAnimals();
+        animalShelter.printAnimals();
+
+        // sorting animals - works
+
+        animalShelter.sortAnimalsByAge();
         animalShelter.printAnimals();
 
 
